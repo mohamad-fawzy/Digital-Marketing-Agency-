@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: 'elmasry-bold';
+    src: url('/img/ElMessiri-Bold.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'elmasry-bold';
+}
+
+
+
+
+/* contianir */
+
+.contiainr {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/Design.png');
+    background-repeat: no-repeat;
+    background-position:600px 10px;
+    background-size:57%;
+    
+}
+
+header {
+    width: 75%;
+    height: 15vh;
+    padding-left: 70px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav {
+    width: 45%;
+    margin-left: 60px;
+}
+
+.nav ul {
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    
+}
+
+
+.nav ul li {
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.nav ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+.input {
+    width: 20%;
+}
+
+.input input {
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.hed-text{
+    margin-left:50px ;
+    font-size: 14px;
+}
+
+
+/*  */
+
+.cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-site, .right-site {
+    width: 50%;
+    height: 82vh;
+    position: relative;
+
+}
+
+.left-site{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.left-site h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 55px;
+    font-weight:bolder;
+    font-family:monospace;
+    line-height: 50px;
+    
+}
+
+
+.right-site {
+    overflow: hidden;
+}
+
+.right-site img {
+position: absolute;
+   width: 700px;
+   right: -190px;
+   bottom:0px;
+}
+
+.left-site .text {
+    width: 60%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #414142;
+}
+.left-site button {
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    background-image: linear-gradient(#56b1b8 , #6ed39c);
+    border-style: none;
+}
+
+.left-site button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+
+}
+
+
+/* links */
+
+.links {
+    height: 40px;
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links div {
+    height: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links div a {
+    color: #414142;
+}
+
+.links div img {
+    width: 20px;
+}
